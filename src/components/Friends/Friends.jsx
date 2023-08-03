@@ -7,7 +7,7 @@ const Friends = () => {
 
     return (
         <div>
-            <h1>Friend List: {friends.length}</h1>
+            <h1>Friends: {friends.length}</h1>
             <div>
                 {
                     friends.map((friend) => <Friend
